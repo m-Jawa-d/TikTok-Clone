@@ -1,13 +1,97 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+*{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+  scroll-behavior: smooth;
 }
+ /**********************Starts App.jsx ***************************/
+html{
+  scroll-snap-type: y mandatory;
+}
+.app{
+  background-color: black;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+}
+ .main_video_container{
+  border-radius: 17px;
+  height:100vh;
+  width: 400px;
+  overflow: scroll;
+  scroll-snap-type: y mandatory;   
+  /* overflow: scroll; */
+}
+.main_video_container::-webkit-scrollbar{
+  display: none;
+}
+.main_video_container{
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+/**********************Ends App.jsx ***************************/
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  /**********************Starts video.jsx ***************************/
+  .video{
+    
+    position: relative;
+    height: 100vh;
+    object-fit: fill;
+    width: 100%;
+    scroll-snap-align: start;
+    /* border: 2px solid rgb(192, 178, 178); */
+    /* width: 500px; */
+    /* height: 500px; */
+  }
+  .circle{
+    height: 100vh;
+    width: 100%;
+  }
+  /**********************Ends video.jsx ***************************/
+  /********************** VideoFooter Starts***********************/
+  .VideoFooter{
+    position: relative;
+    bottom: 109px;
+    left: 18px;
+    padding-bottom: 10px;
+  }
+  .ticker{
+    font-size: 0.42rem;
+    width:250px;
+    margin-left: 15px;
+  }
+  .music_icon{
+    position: relative;
+    top: -17px;
+    bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+  }
+  .rotating_circle{
+    position: relative;
+    margin-bottom: 90px;
+    animation: rotation 2s infinite linear;
+  }
+
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  /********************** VideoFooter Ends***********************/
+  /***************** VideoSidebar Start***********************/
+  .VideoSidebar{
+    position: relative;
+    bottom: 549px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    left: 330px;
+  }
