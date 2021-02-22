@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/TikTok-Clone/static/css/main.86ee7e43.chunk.css",
+    "main.js": "/TikTok-Clone/static/js/main.2ea3172c.chunk.js",
+    "main.js.map": "/TikTok-Clone/static/js/main.2ea3172c.chunk.js.map",
+    "runtime-main.js": "/TikTok-Clone/static/js/runtime-main.5cc6efe0.js",
+    "runtime-main.js.map": "/TikTok-Clone/static/js/runtime-main.5cc6efe0.js.map",
+    "static/js/2.d55b370c.chunk.js": "/TikTok-Clone/static/js/2.d55b370c.chunk.js",
+    "static/js/2.d55b370c.chunk.js.map": "/TikTok-Clone/static/js/2.d55b370c.chunk.js.map",
+    "index.html": "/TikTok-Clone/index.html",
+    "static/css/main.86ee7e43.chunk.css.map": "/TikTok-Clone/static/css/main.86ee7e43.chunk.css.map",
+    "static/js/2.d55b370c.chunk.js.LICENSE.txt": "/TikTok-Clone/static/js/2.d55b370c.chunk.js.LICENSE.txt",
+    "static/media/A.c1065a09.mp4": "/TikTok-Clone/static/media/A.c1065a09.mp4",
+    "static/media/B.90988d78.mp4": "/TikTok-Clone/static/media/B.90988d78.mp4",
+    "static/media/C.b55d8d49.mp4": "/TikTok-Clone/static/media/C.b55d8d49.mp4",
+    "static/media/E.d80d11ad.mp4": "/TikTok-Clone/static/media/E.d80d11ad.mp4",
+    "static/media/F.303701c4.mp4": "/TikTok-Clone/static/media/F.303701c4.mp4",
+    "static/media/G.f8bae8ce.mp4": "/TikTok-Clone/static/media/G.f8bae8ce.mp4",
+    "static/media/J.0ac8a89c.mp4": "/TikTok-Clone/static/media/J.0ac8a89c.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5cc6efe0.js",
+    "static/js/2.d55b370c.chunk.js",
+    "static/css/main.86ee7e43.chunk.css",
+    "static/js/main.2ea3172c.chunk.js"
+  ]
+}
