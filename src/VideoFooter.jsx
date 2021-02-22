@@ -10,19 +10,19 @@ function VideoFooter() {
             <p>#love #topidrama #forYouPage</p>
             <p>#Passion #topidrama #forYouPage</p>
             <div className="ticker">
-            <Ticker mode="smooth">
+                <Ticker mode="smooth">
                     {({ index }) => (
                         <>
                             <h1>Chal to mera puttar 6uti kar</h1>
                         </>
                     )}
                 </Ticker>
-                </div>
-                <div className='music_icon'>
+            </div>
+            <div className='music_icon'>
                 <MusicNoteIcon />
                 <span className='rotating_circle'><i class="fas  fa-2x fa-compact-disc"></i>
-</span>
-                </div>
+                </span>
+            </div>
         </div>
     )
 }
