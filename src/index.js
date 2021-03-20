@@ -1,12 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import {BrowserRouter}from 'react-router-dom'
-import Interlink from './Interlink';
+import { BrowserRouter } from 'react-router-dom';
+import App from './App';
+import {StateProvider} from './StateProvider';
+import reducer,{ initialState } from './reducer';
 
 ReactDOM.render(
   <BrowserRouter>
-    <Interlink />
+    <StateProvider reducer={reducer} initialState={initialState}>
+      <App />
+    </StateProvider>
   </BrowserRouter>,
   document.getElementById('root')
 );

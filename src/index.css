@@ -6,169 +6,203 @@
   font-family: 'Mulish', sans-serif;
   scroll-behavior: smooth;
 }
- /**********************Starts App.jsx ***************************/
-html{
-  scroll-snap-type: y mandatory;
+ /********************** NavBar********************************** */
+ .input_class{
+   border-radius: 0 !important;
+   border-radius: 7px 0 0 7px!important;
+   /* height: 30px!important; */
+ }
+ .button_class{
+  border-radius: 0!important;
+  border-radius: 0 7px 7px 0!important;
+  background-color: rgba(255, 166, 0, 0.781)!important;
+  /* height: 30px!important;
+  padding: 0px!important; */
+ }
+ .nav-link{
+   color: white!important;
+   /* padding: 0!important;
+   margin: 0!important; */
+ }
+ .nav_items{
+   font-size: 0.6rem!important;
+   color: beige!important;
+ }
+ .nav_items3{
+  font-size: 0.6rem;
+  color: beige!important;
 }
-.app{
-  background-color: black;
-  color: aliceblue;
-  display: flex;
-  justify-content: center;
-  height: 100vh;
-  width: 100vw;
+ /* .navbaro{
+   height: 50px!important;
+ } */
+ .nav_items2{
+   /* padding-top: -85px!important; */
+  font-size: 0.9rem!important;
+ }
+ .nav-link:hover{
+   color: rgba(255, 166, 0, 0.781)!important;
+ }
+ .navbaro{
+   z-index: 100!important;
+ }
+ .SignOut_Padding{
+   margin-top: -30px!important;
+   margin-bottom: -40px!important;
+ }
+ .SignOut_flex{
+   display: flex !important;
+   flex-direction: row !important;
+ }
+ .SignIn_Padding{
+   padding-top: 0;
+  margin-top: -13px!important;
+  margin-bottom: -40px!important;
 }
- .main_video_container{
-  border-radius: 17px;
-  height:100vh;
-  width: 390px;
-  background-color: black;
-  color: #fff;
-  color: black;
-  overflow: scroll;
-  scroll-snap-type: y mandatory;   
-  /* overflow: scroll; */
-}
-.main_video_container::-webkit-scrollbar{
-  display: none;
-}
-.main_video_container{
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-/**********************Ends App.jsx ***************************/
-
-  /**********************Starts video.jsx ***************************/
-  .video{
-    
-    position: relative;
-    height: 100%;
-    width: 100%;
-    /* margin-right: -10px!important; */
-    object-fit: contain;
-    /* width: 100%; */
-    scroll-snap-align: start;
-    /* border: 2px solid rgb(192, 178, 178); */
-    /* width: 500px; */
-    /* height: 500px; */
-  }
-  .circle{
-    height: 100vh;
-    width: 100%;
-  }
-  /**********************Ends video.jsx ***************************/
-  /********************** VideoFooter Starts***********************/
-  .VideoFooter{
-    position: relative;
-    bottom: 155px;
-    margin-left: 15px;
-    /* left: 18px; */
-    padding-bottom: 10px;
-    color: #fff;
-  }
-  .ticker{
-    font-size: 0.42rem;
-    width:250px;
-    margin-left: 15px;
-  }
-  .music_icon{
-    position: relative;
-    top: -17px;
-    bottom: 20px;
-    display: flex;
-    justify-content: space-between;
-    margin-right: 24px;
-  }
-  .rotating_circle{
-    position: relative;
-    margin-bottom: 90px;
-    animation: rotation 2s infinite linear;
-  }
-
-  @keyframes rotation {
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(359deg);
-    }
-  }
-  /********************** VideoFooter Ends***********************/
-  /***************** VideoSidebar Start***********************/
-  .VideoSidebar{
-    position: absolute;
-    
-    float: right; 
-     /* padding-right: 10px; */
-     right: 10px;
-    bottom: 259px;
-    color: #fff;
-  }
-
-   /***************** VideoSidebar Ends***********************/
-   /* *********StartUp Page***************** */
-.full{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100vw;
-  background-color: black;
-  color: #fff;
-  height: 100vh;
-}
-.half{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 70vw;
-  height: 70vh;
-
-  /* width: 100vw; */
-  text-align: center;
-  /* display: flex; */
-  /* justify-content: center; */
-  display: block;
-}
-.name_input{
-  background-color: black;
-  color: #fff;
-  border: none;
-  outline: none;
-  border-bottom: 2px solid #fff;
-  padding: 7px;
-  text-align: center;
-  text-transform: capitalize;
-  width: 200px!important;
-}
-.name_input::placeholder{
-  text-align: center;
-}
-.startpage_button{
-  /* position: relative!important; */
-  width: 100px!important;
-  margin-top: 70px!important;
-  /* background-color: crimson; */
-  background-color:  crimson!important;
-  color: #fff!important;
-}
-.startpage_button_null{
-  width: 100px!important;
-  margin-top: 70px!important;
-  background-color:  grey!important;
-  color: #fff!important;
-}
- /* *********StartUp Page***************** */
-   @media(max-width:572px){
-   .main_video_container{
+  /********************** NavBar__Ends********************************** */
+   /********************** LogIn--Page___Starts********************************** */
+   .LogInLogo{
+     width: 110px;
+   }
+   .button_class1{
+    border-radius: 0!important;
+    /* border-radius: 0 7px 7px 0!important; */
+    background-color: rgb(221, 155, 33)!important;
+   /* color: black!important; */
+    /* height: 30px!important;
+    padding: 0px!important; */
+   }
+   .button_class2{
+     border: 4px solid black!important;
+   }
+   /********************** LogIn--Page___Ends********************************** */
+   /********************************** Banner_Starts*********************************** */
+   .top_position{
+     margin-top: -70px!important;
+   }
+   .banner{
      width: 100vw!important;
    }
-   .video{
-    height: 100vh!important;
-   }
-   .circle{
-    height: 100vh!important;
+   .banners{
     width: 100vw!important;
   }
+   /* .banner{
+    background: rgb(5,5,5)!important;
+    background: linear-gradient(90deg, rgba(5,5,5,0.76234243697479) 13%, rgba(254,249,253,1) 81%)!important;
+  z-index: 50!important; 
+  } */
+  /* .banner0{
+    width: 100%!important;
+    height:80vh!important;
+    background-repeat: no-repeat!important;
+    background-color: blueviolet;
+    z-index: 5!important;
+    object-fit: contain!important;
+    background: 100% 100%;
+    background: linear-gradient(180deg,rgb(0, 0, 0,0.5),transparent,rgba(254,249,253,0.5) , rgba(254,249,253,1) ),url('./Images/Banner.jpg')!important;
+  } */
+  .banner{
+    mask-image: linear-gradient(to bottom, rgba(254,249,253,1) 20%, rgb(0, 0, 0, 0))!important;
+  }
+   /********************************** Banner_Ends*********************************** */
+   /******************************* product Starts******************** */
+   .photo{
+     width: 200px!important;
+     object-fit: contain!important;
+   }
+   .photoL{
+    width:600px!important;
+    /* height: 200px!important; */
+    object-fit: contain!important;
+  }
+   .buton{
+     font-size: small;
+    width: 100px!important;
+    background-color: rgba(255, 166, 0, 0.781);
+    color: black;
+    outline: none;
+    border-color: rgba(255, 166, 0, 0.781) rgba(250, 173, 30, 0.986);
+  }
+  .buton_Parent{
+   display: flex!important;
+   place-items: center!important;
+  }
+  .top_position{
+    margin-top: -80px!important;
+    /* background-color: beige; */
+  }
+     /******************************* product Ends******************** */
+
+      /******************************* BasketValue Starts******************** */
+     .basket_photo{
+      width: 100px!important;
+      object-fit: contain!important;
+    }
+    .basket_photoL{
+     width:100px!important;
+     /* height: 200px!important; */
+     object-fit: contain!important;
+   }
+   .buton_basket{
+    font-size: small;
+   width: 150px!important;
+   background-color: rgba(255, 166, 0, 0.781);
+   color: black;
+   outline: none;
+   border-color: rgba(255, 166, 0, 0.781) rgba(250, 173, 30, 0.986);
+ }
+ .basket_img_height{
+height: 30vh!important;
+ }
+ .addprice{
+display: flex;
+/* align-items: center; */
+ }
+ .TotalPrice{
+   width: 370px;
+   height: 150px;
+   padding: 7px;
+   background-color: rgb(218, 218, 218,0.3);
+   border-radius: 3px;
+   border: 2px solid  rgb(218, 218, 218)!important;
+ }
+/******************************* BasketValue Ends******************** */
+
+/******************************* TotalPrice Starts******************** */
+.checkbox_flexo{
+  display: flex;
+  flex-direction: row;
+}
+.checkbox_flexo > input{
+  padding-right: 5px !important;
+  margin-top: 4px;
+  margin-right: 10px;
+}
+/******************************* TotalPrice Ends******************** */
+@media(max-width:765px){
+  .TotalPrice{
+    font-size: 0.5rem;
+    height:  120px;
+  }
+  .btn_sm{
+    font-size: 0.5rem;
+  }
+  .SignOut_Padding{
+    margin-top: auto!important;
+  margin-bottom: auto!important;
+  }
+  .SignIn_Padding{ 
+     margin-top: auto!important;
+    margin-bottom: auto!important;
+  }
+  .nav_items3{
+    font-size: 1rem!important;
+    /* color: beige!important; */
+  }
+  .nav-link:hover{
+    color: rgba(255, 166, 0, 0.781)!important;
+  }
+
 }
 
-
+/* width: 870px;
+height: 150px; */
